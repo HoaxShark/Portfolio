@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ryan Clarke - Portfolio</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="row justify-content-center">
+            <div class="col col-10 col-lg-8">
+                <img class="top-img" src="https://hoaxshark.github.io/Portfolio/images/title.png" alt="">
+            </div>
+        </section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-2">
+                    <div class="row sticky-top buttons">
+                        <button class="btn btn-dark btn-block d-none d-md-block intro-button active">Introduction</button>
+                        <button class="btn btn-dark btn-block d-none d-md-block projects-button">Projects</button>
+                        <button class="btn btn-dark btn-block d-none d-md-block contact-button">Contact</button>
+                        <button class="btn d-block d-md-none btn-dark btn-block hamburger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </button>
+                        <div class="hamburgerDiv d-none d-md-none">
+                        <button class="btn btn-dark btn-block active intro-button">Introduction</button>
+                        <button class="btn btn-dark btn-block projects-button">Projects</button>
+                        <button class="btn btn-dark btn-block contact-button">Contact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-10 col-md-8">
+                    <div class="container">
+                        <div class="introduction content" id="introduction">
+                            <h2 class="text-center">Who Am I</h2>
+                            <p>
+                                A second year student studying BSc Computing for games at Falmouth University.
+                            </p>
+                            <h2 class="text-center">Key Skills</h2>
+                            <p>
+                                <ul>
+                                    <li>C++</li>
+                                    <li>C#</li>
+                                    <li>Python</li>
+                                    <li>Javascript</li>
+                                    <li>Unreal Engine</li>
+                                    <li>Unity</li>
+                                    <li>OpenGL</li>
+                                    <li>SQLite</li>
+                                </ul>
+                            </p>
+                            <h2 class="text-center">Previous Jobs</h2>
+                            <p>
+                                Previous to starting my university course, I spent over 3 years working as an IT Technician at the University of Exeter in a small team supporting the College of Social Sciences and International Studies. This role helped improve my problem solving skills and gave me the focused work attitude that I have now. It also let me build good cross team communication skills and gave me the chance to gain well organised self management practices. 
+                            </p>
+                        </div>
+                        <div class="d-none projects content" id="projects">
+                            <h2 class="text-center">Projects</h2>
+                            <p>All projects below are either entirely my own work or group projects. Please read the README.md in the Github repositories for UML diagrams relevant to the structure of that project.</p>
+                            <h2 class="text-center">Ink'd</h2>
+                            <p>Ink'd is my second year group project designed in the Unity Engine using C#. It aims to provide short levels so that it can be played in small bursts. It has an innovative physics based movement system that helps set it apart from other games.</p>
+                            <p>My main roles on the project:
+                                <ul>
+                                    <li>Movement system</li>
+                                    <li>Persistant data</li>
+                                    <li>Hazard creation</li>
+                                    <li>Ragdoll physics</li>
+                                    <li>Waypoint system</li>
+                                </ul>
+                            </p>
+                            <p>As a side project I have created an AI that is able to play the game through some basic levels. The AI checks its surroundings and chooses areas to grab if there is a good spot available, weighted towards better grabs locations. </p>
+                            <p>Github Repo: <a href="https://github.com/HoaxShark/inkdSourceCode">Ink'd</a></p>
+                            <p>VIDEO</p>
+                            <h2 class="text-center">Orrery Explorer</h2>
+                            <p>This project is built using OpenGl and SDL written in C++, the application was created from scratch by me. Most models are not my own and are used to to demonstrate the application.</p>
+                            <p>In Orrery Explorer you are an astral form able to fly around the system with a star in your hand, you are able to throw the star and return it too you. The goal of this project was to show off my OpenGL implementation focusing on how light and shadows react to your light source.</p>
+                            <p>Github Repo: <a href="https://github.com/HoaxShark/comp220-worksheetA">Orrery Explorer</a></p>
+                            <p>VIDEO</p>
+                            <h2 class="text-center">Multi-User Dungeon</h2>
+                            <p>I currently have a work in progress MUD in the pipeline. The focus of this work is to practice and demonstrate Data Orientated Programming along with security management of user data and packets. The client and server have been created using python, the client also uses PYQT5 for GUI interface.</p>
+                            <p>The gameplay of the MUD is currently very basic as my focus has been on usability features such as account creation, multiple characters, data persistance using SQLite and robust interactions between client and server. </p>
+                            <p>Github Repo: <a href="https://github.com/HoaxShark/comp260-server">Multi-User Dungeon</a></p>
+                            <h2 class="text-center">Colour Code</h2>
+                            <p>For this project I designed and built a customer controller along with a game to show it off. The idea is a guitar hero styled game where the player blocks the lights on the controller to block the corresponding lights in the game to save a scared caterpillar from being burnt alive. The light beams are randomly picked and set at different intervals, over time the speed increases to build difficulty. </p>
+                            <p>The Controller was digitally modeled and then 3D printed. It connects to an arduino using a sketch I created to control it. The game was written in C++.</p>
+                            <p>Github Repo: <a href="https://github.com/HoaxShark/CustomController">Colour Code</a></p>
+                            <div class="row">
+                                <div class="col col-6">
+                                    <a href="#img1">
+                                        <img class='cc-img' src="https://hoaxshark.github.io/Portfolio/images/Controller1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col col-6">
+                                    <a href="#img2">
+                                        <img class='cc-img' src="https://hoaxshark.github.io/Portfolio/images/Controller2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#_" class="lightbox" id="img1">
+                                    <img src="https://hoaxshark.github.io/Portfolio/images/Controller1.jpg">
+                                  </a>
+                                <a href="#_" class="lightbox" id="img2">
+                                    <img src="https://hoaxshark.github.io/Portfolio/images/Controller2.jpg">
+                                </a>
+                                <div class="col col-12 justify-content-center video-wrapper">
+                                    <div class="container">
+                                        <iframe src="https://drive.google.com/file/d/1ObYPpnykIO9DGa8BGnUdZiYNSvbU9xSS/preview" width="640" height="480"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="d-none contact content" id="contact">
+                            Please feel free to get in touch if you have any enquiries:<br/>
+                            <!-- SHOULD HAVE A FORM INSTEAD OF DISPLAYING EMAIL ADDRESS -->
+                            <a href="mailto:hoaxshark@live.com">Via Email</a><br/>
+                            Or by phone: <a href="tel:+447495397856">+447495397856</a>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
